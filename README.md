@@ -11,7 +11,7 @@
 
 ### Salom! Mening GitHub profilimga xush kelibsiz. 👋
 
-Men dasturiy ta'minot sohasi, sun'iy intellekt va avtomatlashtirishga qiziqaman. Hozirda Python dasturlash tili va Aiogram ramkasi yordamida botlar va turli loyihalar ustida ishlayapman.
+Men dasturiy ta'minot sohasi, sun'iy intellekt va avtomatlashtirishga qiziqaman. Hozirda **Python** dasturlash tili va **Aiogram** ramkasi yordamida botlar va turli loyihalar ustida ishlayapman.
 
 ### 📈 GitHub Statistikasi
 
@@ -22,19 +22,34 @@ Men dasturiy ta'minot sohasi, sun'iy intellekt va avtomatlashtirishga qiziqaman.
 
 ### 💻 Texnik Ko'nikmalarim (Skills)
 
-<p align="center">
-  <a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=python" alt="Python" /></a>
-  <a href="https://fastapi.tiangolo.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=fastapi" alt="FastAPI" /></a>
-  <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=postgresql" alt="PostgreSQL" /></a>
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=git" alt="Git" /></a>
-  <a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=docker" alt="Docker" /></a>
-  <a href="https://docs.aiogram.dev/en/v3.22.0/#" target="_blank" rel="noreferrer"><img src="https://docs.aiogram.dev/en/v3.22.0/_static/logo.png" alt="Aiogram" width="50" height="50"/></a>
+Sizning bilim darajangizni vizual ko'rsatish uchun progress barlardan foydalanish mumkin. Quyidagi misollarni o'zingizning haqiqiy ko'nikmalaringizga moslab o'zgartirishingiz mumkin:
 
-  <a href="https://pytorch.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=pytorch" alt="PyTorch" /></a>
-  <a href="https://www.tensorflow.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=tensorflow" alt="TensorFlow" /></a>
-  <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=sklearn" alt="scikit-learn" /></a>
-  <a href="https://www.coursera.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=coursera" alt="Coursera" /></a>
-</p>
+**Dasturlash tillari:**
+
+**Python**
+<img alt="Python" src="https://progress-bar.dev/85/" />
+
+**SQL**
+<img alt="SQL" src="https://progress-bar.dev/70/" />
+
+**Ramkalar va Kutubxonalar:**
+
+**Aiogram**
+<img alt="Aiogram" src="https://progress-bar.dev/90/" />
+
+**FastAPI**
+<img alt="FastAPI" src="https://progress-bar.dev/60/" />
+
+**Machine Learning (ML):**
+
+**PyTorch**
+<img alt="PyTorch" src="https://progress-bar.dev/75/" />
+
+**TensorFlow**
+<img alt="TensorFlow" src="https://progress-bar.dev/70/" />
+
+**scikit-learn**
+<img alt="scikit-learn" src="https://progress-bar.dev/80/" />
 
 ---
 
@@ -46,7 +61,7 @@ Men dasturiy ta'minot sohasi, sun'iy intellekt va avtomatlashtirishga qiziqaman.
 * **Facebook:** [me.narzullayev](https://www.facebook.com/me.narzullayev)
 * **LinkedIn:** [in/narzullayevme](https://www.linkedin.com/in/narzullayevme/)
 * **HackerRank:** [narzullayevme](https://www.hackerrank.com/narzullayevme)
-* **Codeforces:** [Narzullayevme](https://codeforces.com/profile/meNarzullayev)
+* **Codeforces:** [Narzullayevme](https://codeforces.com/profile/Narzullayevme)
 * **LeetCode:** [narzullayevme](https://leetcode.com/narzullayevme)
 * **Codechef:** [narzullayevme](https://www.codechef.com/users/narzullayevme)
 * **SoloLearn:** [narzullayevme](https://www.sololearn.com/profile/20544482)
