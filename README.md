@@ -9,28 +9,51 @@
 
 ---
 
-### Salom! Mening GitHub profilimga xush kelibsiz. 👋
+### Assalomu alaykum! GitHub profilimga xush kelibsiz 👋
 
-Men **dasturiy ta'minot** va **sun'iy intellekt** sohasi bo'yicha mustaqil izlanuvchi va dasturchiman. Hozirda **Python** dasturlash tili va **Aiogram** ramkasi yordamida avtomatlashtirilgan botlar va turli loyihalar ustida ishlayapman. Murakkab muammolarga ijodiy yechimlar topish, algoritm va ma'lumotlar tuzilmalarini o'rganishga qiziqaman.
+Men **dasturiy ta'minot** va **sun'iy intellekt** sohasi bo'yicha mustaqil izlanuvchi va dasturchiman. Hozirda **Python** dasturlash tili va **Aiogram** ramkasi yordamida avtomatlashtirilgan botlar va turli loyihalar ustida ishlayapman. Murakkab muammolarga ijodiy yechimlar topish, algoritm va ma'lumotlar tuzilmalarini o'rganishga qiziqaman. 
 
 ---
 
-### 🚀 Profil Statistikasi
+### 🚀 Dinamik Statistika va Yutuqlar
 
 <div align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=menarzullayev&theme=vue-dark" alt="Profile Details" />
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=menarzullayev&theme=vue-dark" alt="GitHub Stats" />
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=menarzullayev&theme=vue-dark" alt="Top Languages" />
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=menarzullayev&theme=vue-dark" alt="Productive Time" />
+  <a href="https://github.com/menarzullayev">
+    <img src="https://komarev.com/ghpvc/?username=menarzullayev&color=26A5E4" alt="GitHub Profile Views" />
+  </a>
+  <img src="https://github-readme-stats.vercel.app/api?username=menarzullayev&show_icons=true&theme=vue-dark&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=menarzullayev&layout=compact&theme=vue-dark" alt="Top Languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=menarzullayev&theme=vue-dark" alt="Profile Details" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=menarzullayev&theme=vue-dark" alt="GitHub Streak Stats" />
 </div>
+
+> Yuqoridagi statistika oxirgi yildagi faoliyatim, eng ko'p ishlatilgan tillar va profilimga tashriflar sonini ko'rsatadi.
+
+---
+
+### 💡 Loyihalarimdan namunalar
+
+#### Bot Projects
+* **[Loyiha Nomi 1]**: Qisqa izoh, bu loyiha nimaga xizmat qiladi? Ishlatilgan texnologiyalar: `Python`, `Aiogram`, `SQLite`.
+* **[Loyiha Nomi 2]**: Qisqa izoh. Ishlatilgan texnologiyalar: `Python`, `Aiogram`, `PostgreSQL`.
+
+#### Web Projects
+* **[Loyiha Nomi 3]**: Qisqa izoh. Ishlatilgan texnologiyalar: `Python`, `FastAPI`.
+
+> To'liq loyihalar ro'yxatini mening [repositorylarim](https://github.com/menarzullayev?tab=repositories) sahifamda ko'rishingiz mumkin.
 
 ---
 
 ### 🛠️ Texnik Ko'nikmalarim
 
-#### Dasturlash tillari & Frameworklar
+#### Dasturlash tillari
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,aiogram,fastapi,pytorch,tensorflow,sklearn" alt="Languages & Frameworks" />
+  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn" alt="Programming Languages" />
+</p>
+
+#### Frameworklar
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=fastapi,aiogram" alt="Frameworks" />
 </p>
 
 #### Ma'lumotlar bazalari
@@ -45,17 +68,7 @@ Men **dasturiy ta'minot** va **sun'iy intellekt** sohasi bo'yicha mustaqil izlan
 
 ---
 
-### 💡 Eng muhim loyihalarim
-
-* **[Loyiha Nomi 1]**: Bu loyiha haqida qisqacha izoh. Unda qanday muammolar yechilgani va qanday texnologiyalar ishlatilganini yozing.
-* **[Loyiha Nomi 2]**: Ikkinchi muhim loyiha haqida izoh. Bu loyiha sizning qaysi ko'nikmalaringizni namoyish etishini ko'rsating.
-* **[Loyiha Nomi 3]**: Uchinchi loyiha haqida izoh. Agar loyihalaringiz ochiq kodli bo'lsa, ularga havolalar (link) qo'shishni unutmang.
-
-> To'liq loyihalar ro'yxatini mening [repositorylarim](https://github.com/menarzullayev?tab=repositories) sahifamda ko'rishingiz mumkin.
-
----
-
-### 🌐 Meni boshqa platformalarda topishingiz mumkin:
+### 🤝 Meni boshqa platformalarda topishingiz mumkin:
 
 <p align="center">
   <a href="https://t.me/NarzullayevMe"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
