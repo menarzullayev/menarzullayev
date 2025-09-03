@@ -45,9 +45,9 @@ Men dasturiy ta'minot sohasi, sun'iy intellekt va avtomatlashtirishga qiziqaman.
 * **Facebook:** [me.narzullayev](https://www.facebook.com/me.narzullayev)
 * **LinkedIn:** [in/narzullayevme](https://www.linkedin.com/in/narzullayevme/)
 * **HackerRank:** [narzullayevme](https://www.hackerrank.com/narzullayevme)
-* **Codeforces:** [Narzullayevme](https://codeforces.com/profile/Narzullayevme)
+* **Codeforces:** [Narzullayevme](https://codeforces.com/profile/meNarzullayev)
 * **LeetCode:** [narzullayevme](https://leetcode.com/narzullayevme)
 * **Codechef:** [narzullayevme](https://www.codechef.com/users/narzullayevme)
-* **SoloLearn:** [narzullayevme](https://www.sololearn.com/profile/2685970)
+* **SoloLearn:** [narzullayevme](https://www.sololearn.com/profile/20544482)
 
 ---
