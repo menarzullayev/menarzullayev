@@ -1,51 +1,29 @@
-<div align="center">
-  <a href="https://t.me/NarzullayevMe"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
-  <a href="mailto:s.narzullayev@tassvison.ai"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://www.linkedin.com/in/narzullayevme/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://x.com/NarzullayevMe"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
-</div>
-
----
-
-<div align="center">
-  <samp>
-    Hi there, I'm Saidakbar! 👋
-    <br>
-    <span>Learning</span> •
-    <a href="https://t.me/NarzullayevMe" rel="nofollow">Telegram</a> •
-    <a href="https://www.linkedin.com/in/narzullayevme/" rel="nofollow">LinkedIn</a> •
-    <a href="https://x.com/NarzullayevMe" rel="nofollow">X</a>
-  </samp>
-</div>
-
----
-
 ### About Me
 
-I'm a self-taught **Software** and **AI Developer** from Uzbekistan. I'm passionate about building intelligent, automated solutions. Currently, I'm focused on developing automated bots and various projects using the **Python** programming language and the **Aiogram** framework. I enjoy solving complex problems and constantly improving my knowledge of algorithms and data structures.
+Hi there, I'm **Saidakbar!** 👋 I'm a self-taught **Software and AI Developer** from Uzbekistan, passionate about building intelligent, automated solutions. Currently, I'm focused on developing automated bots and various projects using the **C++** and **Python** programming languages. I enjoy solving complex problems and constantly improving my knowledge of algorithms and data structures.
+
+You can find me on these platforms:
+[Telegram](https://t.me/NarzullayevS) • [LinkedIn](https://linkedin.com/in/narzullayevme) • [X](https://twitter.com/NarzullayevMe)
 
 ---
 
 ### 💻 My Tech Stack
 
-| Languages & Tools | Frameworks | Databases | DevOps & Other |
-| :--- | :--- | :--- | :--- |
-| <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn" alt="Languages & AI" /> | <img src="https://skillicons.dev/icons?i=fastapi,aiogram" alt="Frameworks" /> | <img src="https://skillicons.dev/icons?i=postgres,sqlite" alt="Databases" /> | <img src="https://skillicons.dev/icons?i=git,docker,vscode,linux" alt="Tools" /> |
+Hozircha bo'sh. Keyingi so'rovlarda aytaman.
 
 ---
 
 ### 🚀 Projects
 
-Here are some of my projects. You can find the complete list on my [repositories page](https://github.com/menarzullayev?tab=repositories).
+Here are some of my projects. You can find the complete list on my repositories page.
 
-<details>
-<summary><b>More Repositories</b> ...</summary>
-<br>
+<details open>
+<summary>More Repositories ...</summary>
 
 | Project Name | GitHub | Stars | Last Commit |
-| :--- | :--- | :---: | :---: |
-| Your Project 1 | <a href="https://github.com/menarzullayev/your-project-1">#Github</a> | <img src="https://img.shields.io/github/stars/menarzullayev/your-project-1?style=flat" alt="Stars" /> | <img src="https://img.shields.io/github/last-commit/menarzullayev/your-project-1?style=flat&label=last" alt="Last Commit" /> |
-| Your Project 2 | <a href="https://github.com/menarzullayev/your-project-2">#Github</a> | <img src="https://img.shields.io/github/stars/menarzullayev/your-project-2?style=flat" alt="Stars" /> | <img src="https://img.shields.io/github/last-commit/menarzullayev/your-project-2?style=flat&label=last" alt="Last Commit" /> |
+| :--- | :--- | :--- | :--- |
+| **Your Project 1** | [Github](https://github.com/menarzullayev/Your_Project_1) | (stars) | (last commit date) |
+| **Your Project 2** | [Github](https://github.com/menarzullayev/Your_Project_2) | (stars) | (last commit date) |
 
 </details>
 
@@ -53,28 +31,44 @@ Here are some of my projects. You can find the complete list on my [repositories
 
 ### 📈 GitHub Stats
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=menarzullayev&show_icons=true&theme=vue-dark&include_all_commits=true&count_private=true" alt="Saidakbar's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=menarzullayev&layout=compact&theme=vue-dark" alt="Top Languages" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=menarzullayev&theme=vue-dark" alt="GitHub Streak Stats" />
-</div>
+![Saidakbar's GitHub stats](https://github-readme-stats.vercel.app/api?username=menarzullayev&show_icons=true&theme=dark)
+![Saidakbar's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=menarzullayev&layout=compact&theme=dark)
 
 ---
 
 ### 🤝 Let's Connect!
 
-<div align="center">
-  <a href="https://t.me/NarzullayevMe" target="_blank"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
-  <a href="https://x.com/NarzullayevMe" target="_blank"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
-  <a href="https://www.instagram.com/narzullayevme/" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
-  <a href="https://www.linkedin.com/in/narzullayevme/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://www.hackerrank.com/narzullayevme" target="_blank"><img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank" /></a>
-  <a href="https://leetcode.com/narzullayevme" target="_blank"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" /></a>
-  <a href="https://codeforces.com/profile/Narzullayevme" target="_blank"><img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces" /></a>
-</div>
+I'm always open to new opportunities and collaborations. Feel free to reach out!
 
-<br>
 <div align="center">
-  <p>I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
-  <p><a href="mailto:s.narzullayev@tassvison.ai">s.narzullayev@tassvison.ai</a></p>
+<a href="tel:+998883948797" target="_blank">
+  <img src="https://img.shields.io/badge/Call-998883948797-305B90?style=for-the-badge&logo=phone&logoColor=white" alt="Phone" />
+</a>
+<a href="https://t.me/NarzullayevS" target="_blank">
+  <img src="https://img.shields.io/badge/Telegram-NarzullayevS-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
+</a>
+<a href="https://linkedin.com/in/narzullayevme" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-narzullayevme-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+<a href="https://twitter.com/NarzullayevMe" target="_blank">
+  <img src="https://img.shields.io/badge/Twitter-NarzullayevMe-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
+</a>
+<a href="https://instagram.com/narzullayevme" target="_blank">
+  <img src="https://img.shields.io/badge/Instagram-narzullayevme-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+</a>
+<a href="https://buymeacoffee.com/narzullayevme" target="_blank">
+  <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-narzullayevme-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee" />
+</a>
+<a href="https://wa.me/998883948797" target="_blank">
+  <img src="https://img.shields.io/badge/WhatsApp-998883948797-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
+</a>
+<a href="http://vk.com/narzullayevme" target="_blank">
+  <img src="https://img.shields.io/badge/VK-narzullayevme-4C75A3?style=for-the-badge&logo=vk&logoColor=white" alt="VK" />
+</a>
+<a href="https://github.com/narzullayevme" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-narzullayevme-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</a>
+<a href="https://tiktok.com/@narzullayevme" target="_blank">
+  <img src="https://img.shields.io/badge/TikTok-narzullayevme-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok" />
+</a>
 </div>
