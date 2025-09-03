@@ -9,7 +9,14 @@ You can find me on these platforms:
 
 ### 💻 My Tech Stack
 
-Hozircha bo'sh. Keyingi so'rovlarda aytaman.
+| Category | Technologies |
+| :--- | :--- |
+| **Programming Languages** | C/C++, Python, JavaScript, PHP, Go |
+| **Frameworks & Libraries** | Django, TensorFlow, PyTorch, Aiogram |
+| **Databases** | PostgreSQL, MySQL, SQLite, Redis |
+| **Cloud & DevOps** | Docker, Amazon Web Services (AWS), GitLab CI/CD |
+| **Version Control** | Git, GitHub, GitLab, Bitbucket |
+| **Tools** | VS Code, Jira, Slack, Postman, Notion |
 
 ---
 
