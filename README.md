@@ -23,7 +23,6 @@ Men **dasturiy ta'minot** va **sun'iy intellekt** sohasi bo'yicha mustaqil izlan
   </a>
   <img src="https://github-readme-stats.vercel.app/api?username=menarzullayev&show_icons=true&theme=vue-dark&include_all_commits=true&count_private=true" alt="GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=menarzullayev&layout=compact&theme=vue-dark" alt="Top Languages" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=menarzullayev&theme=vue-dark" alt="Profile Details" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=menarzullayev&theme=vue-dark" alt="GitHub Streak Stats" />
 </div>
 
@@ -32,13 +31,6 @@ Men **dasturiy ta'minot** va **sun'iy intellekt** sohasi bo'yicha mustaqil izlan
 ---
 
 ### 💡 Loyihalarimdan namunalar
-
-#### Bot Projects
-* **[Loyiha Nomi 1]**: Qisqa izoh, bu loyiha nimaga xizmat qiladi? Ishlatilgan texnologiyalar: `Python`, `Aiogram`, `SQLite`.
-* **[Loyiha Nomi 2]**: Qisqa izoh. Ishlatilgan texnologiyalar: `Python`, `Aiogram`, `PostgreSQL`.
-
-#### Web Projects
-* **[Loyiha Nomi 3]**: Qisqa izoh. Ishlatilgan texnologiyalar: `Python`, `FastAPI`.
 
 > To'liq loyihalar ro'yxatini mening [repositorylarim](https://github.com/menarzullayev?tab=repositories) sahifamda ko'rishingiz mumkin.
 
