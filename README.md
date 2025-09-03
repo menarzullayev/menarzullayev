@@ -23,32 +23,58 @@ Men dasturiy ta'minot sohasi, sun'iy intellekt va avtomatlashtirishga qiziqaman.
 ### 💻 Texnik Ko'nikmalarim (Skills)
 
 #### Dasturlash tillari va ramkalar
-Python: 85%
-![Python](https://progress-bar.dev/85/)
-Aiogram: 90%
-![Aiogram](https://progress-bar.dev/90/)
-FastAPI: 80%
-![FastAPI](https://progress-bar.dev/80/)
+Python
+<div style="width:100%;background-color:#eee;border-radius:10px;">
+  <div style="background-color:#007BFF;width:85%;color:white;text-align:right;padding-right:5px;border-radius:10px;">85%</div>
+</div>
+
+Aiogram
+<div style="width:100%;background-color:#eee;border-radius:10px;">
+  <div style="background-color:#20C997;width:90%;color:white;text-align:right;padding-right:5px;border-radius:10px;">90%</div>
+</div>
+
+FastAPI
+<div style="width:100%;background-color:#eee;border-radius:10px;">
+  <div style="background-color:#6F42C1;width:80%;color:white;text-align:right;padding-right:5px;border-radius:10px;">80%</div>
+</div>
 
 #### Ma'lumotlar bazalari
-PostgreSQL: 75%
-![PostgreSQL](https://progress-bar.dev/75/)
-SQLite: 80%
-![SQLite](https://progress-bar.dev/80/)
+PostgreSQL
+<div style="width:100%;background-color:#eee;border-radius:10px;">
+  <div style="background-color:#DC3545;width:75%;color:white;text-align:right;padding-right:5px;border-radius:10px;">75%</div>
+</div>
+
+SQLite
+<div style="width:100%;background-color:#eee;border-radius:10px;">
+  <div style="background-color:#FFC107;width:80%;color:white;text-align:right;padding-right:5px;border-radius:10px;">80%</div>
+</div>
 
 #### DevOps & Boshqa texnologiyalar
-Git: 95%
-![Git](https://progress-bar.dev/95/)
-Docker: 70%
-![Docker](https://progress-bar.dev/70/)
+Git
+<div style="width:100%;background-color:#eee;border-radius:10px;">
+  <div style="background-color:#17A2B8;width:95%;color:white;text-align:right;padding-right:5px;border-radius:10px;">95%</div>
+</div>
+
+Docker
+<div style="width:100%;background-color:#eee;border-radius:10px;">
+  <div style="background-color:#6C757D;width:70%;color:white;text-align:right;padding-right:5px;border-radius:10px;">70%</div>
+</div>
 
 #### Sun'iy Intellekt
-PyTorch: 75%
-![PyTorch](https://progress-bar.dev/75/)
-TensorFlow: 70%
-![TensorFlow](https://progress-bar.dev/70/)
-scikit-learn: 85%
-![scikit-learn](https://progress-bar.dev/85/)
+PyTorch
+<div style="width:100%;background-color:#eee;border-radius:10px;">
+  <div style="background-color:#FD7E14;width:75%;color:white;text-align:right;padding-right:5px;border-radius:10px;">75%</div>
+</div>
+
+TensorFlow
+<div style="width:100%;background-color:#eee;border-radius:10px;">
+  <div style="background-color:#E83E8C;width:70%;color:white;text-align:right;padding-right:5px;border-radius:10px;">70%</div>
+</div>
+
+scikit-learn
+<div style="width:100%;background-color:#eee;border-radius:10px;">
+  <div style="background-color:#28A745;width:85%;color:white;text-align:right;padding-right:5px;border-radius:10px;">85%</div>
+</div>
 
 ---
 
