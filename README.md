@@ -22,34 +22,33 @@ Men dasturiy ta'minot sohasi, sun'iy intellekt va avtomatlashtirishga qiziqaman.
 
 ### 💻 Texnik Ko'nikmalarim (Skills)
 
-Sizning bilim darajangizni vizual ko'rsatish uchun progress barlardan foydalanish mumkin. Quyidagi misollarni o'zingizning haqiqiy ko'nikmalaringizga moslab o'zgartirishingiz mumkin:
+#### Dasturlash tillari va ramkalar
+Python: 85%
+![Python](https://progress-bar.dev/85/)
+Aiogram: 90%
+![Aiogram](https://progress-bar.dev/90/)
+FastAPI: 80%
+![FastAPI](https://progress-bar.dev/80/)
 
-**Dasturlash tillari:**
+#### Ma'lumotlar bazalari
+PostgreSQL: 75%
+![PostgreSQL](https://progress-bar.dev/75/)
+SQLite: 80%
+![SQLite](https://progress-bar.dev/80/)
 
-**Python**
-<img alt="Python" src="https://progress-bar.dev/85/" />
+#### DevOps & Boshqa texnologiyalar
+Git: 95%
+![Git](https://progress-bar.dev/95/)
+Docker: 70%
+![Docker](https://progress-bar.dev/70/)
 
-**SQL**
-<img alt="SQL" src="https://progress-bar.dev/70/" />
-
-**Ramkalar va Kutubxonalar:**
-
-**Aiogram**
-<img alt="Aiogram" src="https://progress-bar.dev/90/" />
-
-**FastAPI**
-<img alt="FastAPI" src="https://progress-bar.dev/60/" />
-
-**Machine Learning (ML):**
-
-**PyTorch**
-<img alt="PyTorch" src="https://progress-bar.dev/75/" />
-
-**TensorFlow**
-<img alt="TensorFlow" src="https://progress-bar.dev/70/" />
-
-**scikit-learn**
-<img alt="scikit-learn" src="https://progress-bar.dev/80/" />
+#### Sun'iy Intellekt
+PyTorch: 75%
+![PyTorch](https://progress-bar.dev/75/)
+TensorFlow: 70%
+![TensorFlow](https://progress-bar.dev/70/)
+scikit-learn: 85%
+![scikit-learn](https://progress-bar.dev/85/)
 
 ---
 
@@ -64,6 +63,6 @@ Sizning bilim darajangizni vizual ko'rsatish uchun progress barlardan foydalanis
 * **Codeforces:** [Narzullayevme](https://codeforces.com/profile/Narzullayevme)
 * **LeetCode:** [narzullayevme](https://leetcode.com/narzullayevme)
 * **Codechef:** [narzullayevme](https://www.codechef.com/users/narzullayevme)
-* **SoloLearn:** [narzullayevme](https://www.sololearn.com/profile/20544482)
+* **SoloLearn:** [narzullayevme](https://www.sololearn.com/profile/2685970)
 
 ---
