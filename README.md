@@ -28,9 +28,8 @@ Men dasturiy ta'minot sohasi, sun'iy intellekt va avtomatlashtirishga qiziqaman.
   <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=postgresql" alt="PostgreSQL" /></a>
   <a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=git" alt="Git" /></a>
   <a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=docker" alt="Docker" /></a>
-  <a href="https://www.aiogram.dev/" target="_blank" rel="noreferrer">
-    <img src="https://www.aiogram.dev/assets/images/aiogram-logo.svg" alt="Aiogram" width="48" height="48" />
-  </a>
+  <a href="https://docs.aiogram.dev/en/v3.22.0/#" target="_blank" rel="noreferrer"><img src="https://docs.aiogram.dev/en/v3.22.0/_static/logo.png" alt="Aiogram" width="50" height="50"/></a>
+
   <a href="https://pytorch.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=pytorch" alt="PyTorch" /></a>
   <a href="https://www.tensorflow.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=tensorflow" alt="TensorFlow" /></a>
   <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=sklearn" alt="scikit-learn" /></a>
