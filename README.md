@@ -18,6 +18,10 @@ I build edge-AI firmware and the platforms around it, and I study how to check w
 <a href="https://github.com/menarzullayev/hisobox"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-hisobox-dark.svg"><img src="assets/card-hisobox-light.svg" alt="HisoBox: credit ledger for grocery shops, in development" width="32%"></picture></a>
 </p>
 
+## Case studies
+
+Four systems explained as decisions, measurements and what is not done: [engineering-portfolio](https://github.com/menarzullayev/engineering-portfolio) (RankWant, Project Alpha, tg-solver, an attendance system).
+
 ## Work
 
 **TassVision**, firmware and AI models team: engineer since Dec 2025, after an internship (Sep – Nov 2025).
