@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Saidakbar Narzullayev, Software Engineer, Edge AI and platforms">
+<defs><pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#E6E9F0" stroke-width="1"/></pattern></defs>
+<rect width="1200" height="300" fill="#F7F8FA"/><rect width="1200" height="300" fill="url(#g)"/>
+<g stroke="#2347D6" stroke-width="3" fill="none" stroke-linecap="square"><path d="M96 92V64H124"/><path d="M1076 64H1104V92"/><path d="M96 208V236H124"/><path d="M1076 236H1104V208"/></g>
+<rect x="96" y="38" width="96" height="24" fill="#2347D6"/><text x="106" y="55" font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">engineer</text>
+<text x="600" y="150" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="66" font-weight="700" fill="#101828">Saidakbar Narzullayev</text>
+<text x="600" y="198" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif" font-size="26" fill="#3B455A">Software Engineer · Edge AI and platforms</text>
+</svg>

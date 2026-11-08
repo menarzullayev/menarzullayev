@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="250" viewBox="0 0 400 250" role="img" aria-label="HisoBox: Credit ledger for mahalla grocery shops. in development, not deployed.">
+<rect x="1" y="1" width="398" height="248" rx="10" fill="#161B22" stroke="#30363D" stroke-width="1.5"/>
+<circle cx="38" cy="44" r="17" fill="#1FA463"/>
+<text x="38" y="50" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">C</text>
+<text x="68" y="55" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" fill="#E6EDF3">HisoBox</text>
+<text x="24" y="102" font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif" font-size="19" fill="#B4BDC9">Credit ledger for mahalla</text>
+<text x="24" y="128" font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif" font-size="19" fill="#B4BDC9">grocery shops</text>
+<text x="24" y="164" font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif" font-size="16" fill="#8B949E">FastAPI · aiogram · React</text>
+<line x1="24" y1="182" x2="376" y2="182" stroke="#30363D"/>
+<text x="24" y="208" font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif" font-size="16" fill="#E6EDF3">108 migrations · about 380 test files</text>
+<circle cx="31" cy="231" r="5.5" fill="#E3B341"/>
+<text x="44" y="237" font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif" font-size="16" font-weight="600" fill="#E3B341">in development, not deployed</text>
+</svg>
