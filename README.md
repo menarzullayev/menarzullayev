@@ -28,7 +28,8 @@ This work is private; there is no public code.
 ## Research interest
 
 How to verify what an AI agent reports as done, and how much autonomy to give it.
-I have measured one part of this offline; the write-up is not public yet.
+
+My first measurement is public: [agent-verification-study](https://github.com/menarzullayev/agent-verification-study). A verifier that sees a reply caught 36 of 36 injected errors, and the hypothesis that seeing the reply makes it miss more was not supported. The second comparison could not be interpreted because the blind verifier failed its own validity gate. The sample is small (12 per cell) and one model family does both jobs; the limits are on the first page.
 
 ## Tools
 
