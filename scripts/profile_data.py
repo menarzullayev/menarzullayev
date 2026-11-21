@@ -43,8 +43,10 @@ def parse_cf(info: dict, rating: dict, today: str) -> dict:
     hist = [int(r["newRating"]) for r in rating["result"]]
     if "rating" not in user or not hist:
         raise ValueError("codeforces user has no rating")
+    timeline = [[dt.datetime.fromtimestamp(int(r["ratingUpdateTimeSeconds"]), dt.timezone.utc).date().isoformat(), int(r["newRating"])]
+                for r in rating["result"] if "ratingUpdateTimeSeconds" in r]
     return {"rating": int(user["rating"]), "max": int(user["maxRating"]), "rank": str(user["rank"]),
-            "contests": len(hist), "history": hist[-12:], "asof": today, "stale": False}
+            "contests": len(hist), "history": hist[-12:], "timeline": timeline, "asof": today, "stale": False}
 
 
 def parse_lc(payload: dict, today: str) -> dict:

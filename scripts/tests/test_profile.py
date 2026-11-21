@@ -116,9 +116,11 @@ class Validate(unittest.TestCase):
 class Parsers(unittest.TestCase):
     def test_cf_ok_and_failure(self):
         info = {"status": "OK", "result": [{"rating": 2013, "maxRating": 2013, "rank": "candidate master"}]}
-        rating = {"status": "OK", "result": [{"newRating": r} for r in range(1400, 1500, 10)]}
+        rating = {"status": "OK", "result": [{"newRating": r, "ratingUpdateTimeSeconds": 1605398400 + i * 86400} for i, r in enumerate(range(1400, 1500, 10))]}
         got = pd.parse_cf(info, rating, "2026-11-22")
         self.assertEqual((got["rating"], got["contests"], len(got["history"])), (2013, 10, 10))
+        self.assertEqual(got["timeline"][0], ["2020-11-15", 1400])
+        self.assertEqual(len(got["timeline"]), 10)
         with self.assertRaises(ValueError):
             pd.parse_cf({"status": "FAILED"}, rating, "2026-11-22")
         with self.assertRaises(ValueError):
@@ -143,6 +145,31 @@ class Parsers(unittest.TestCase):
         self.assertEqual(got["months"][0], ["J", 1])
         with self.assertRaises(ValueError):
             pd.parse_activity(cal([week("2026-01-01", 1)], 1), "2026-11-22")
+
+
+class Competitions(unittest.TestCase):
+    C = json.loads((ROOT / "data" / "competitions.json").read_text(encoding="utf-8"))
+
+    def test_every_entry_has_a_primary_source(self):
+        entries = self.C["icpc"]["entries"]
+        self.assertEqual([e["year"] for e in entries], sorted(e["year"] for e in entries))
+        for e in entries:
+            self.assertTrue(e["url"].startswith("https://nerc.itmo.ru/archive/"), e)
+            self.assertTrue(e["team"].strip())
+        for key in ("codeforces", "leetcode"):
+            self.assertTrue(self.C[key]["url"].startswith("https://"), key)
+
+    def test_no_placements_are_stated(self):
+        text = json.dumps(self.C).lower()
+        for word in ("place", "rank", "position", "winner"):
+            self.assertNotIn(word, text)
+
+    def test_timeline_matches_the_contest_count(self):
+        cf = DATA["cf"]
+        self.assertEqual(len(cf["timeline"]), cf["contests"])
+        dates = [d for d, _ in cf["timeline"]]
+        self.assertEqual(dates, sorted(dates))
+        self.assertEqual(cf["timeline"][-1][1], cf["rating"])
 
 
 class Evidence(unittest.TestCase):
