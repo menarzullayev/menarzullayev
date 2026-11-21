@@ -1,0 +1,31 @@
+{
+  "icpc": {
+    "name": "ICPC Northern Eurasia Finals",
+    "note": "Official team standings pages; the year is the one used in the NERC archive.",
+    "entries": [
+      {
+        "year": 2021,
+        "team": "SLD Group",
+        "url": "https://nerc.itmo.ru/archive/2021/standings.html"
+      },
+      {
+        "year": 2022,
+        "team": "Vertow",
+        "url": "https://nerc.itmo.ru/archive/2022/standings.html"
+      },
+      {
+        "year": 2023,
+        "team": "SLD Group",
+        "url": "https://nerc.itmo.ru/archive/2023/standings.html"
+      }
+    ]
+  },
+  "codeforces": {
+    "handle": "meNarzullayev",
+    "url": "https://codeforces.com/profile/meNarzullayev"
+  },
+  "leetcode": {
+    "user": "NarzullayevMe",
+    "url": "https://leetcode.com/u/NarzullayevMe/"
+  }
+}

@@ -22,7 +22,7 @@ PALETTES = {
     "light": dict(bg="#f4f1e6", panel="#fbf9f0", line="#2f6b3f", text="#1d5c33", bright="#0f3d22", amber="#a15c00",
                   mut="#3f6b4c", red="#b42318", scan="#2f6b3f", scan_o=".03", hub="#ffffff"),
 }
-MODULES = ("hero", "worlds", "stats", "graph")
+MODULES = ("hero", "worlds", "flagships", "stats", "graph")
 RANK_ABBR = {"newbie": "N", "pupil": "P", "specialist": "S", "expert": "E", "candidate master": "CM", "master": "M",
              "international master": "IM", "grandmaster": "GM", "international grandmaster": "IGM", "legendary grandmaster": "LGM"}
 
@@ -171,6 +171,36 @@ def worlds(t: Theme, facts: dict, data: dict) -> str:
     return t.wrap(h, b, "Three areas of work: research, engineering, competitive programming")
 
 
+def flagships(t: Theme, facts: dict, data: dict) -> str:
+    h = 276
+    b = t.bg(h)
+    ev = {e["repo"]: e for e in data.get("evidence", [])}
+    ci = {r["label"]: r for r in data["ci"]}
+    b += T("lb", 32, 32, "FLAGSHIPS · COUNTED FROM THE PUBLIC REPOSITORIES")
+    for i, f in enumerate(facts["flagships"]):
+        if f["repo"] not in ev:
+            raise ValueError(f"no evidence counters for {f['repo']}")
+        e = ev[f["repo"]]
+        x, y, w, hh = 32 + i * 259, 46, 248, 218
+        col = t.accent[i]
+        inner = t.panel(x, y, w, hh)
+        inner += f'<circle cx="{x+24}" cy="{y+28}" r="5" fill="{col}"/>' + T("lb", x + 38, y + 32, f["label"])
+        inner += T("nt", x + w - 20, y + 32, f["status"], 'text-anchor="end" style="font-size:10px"')
+        inner += T("sb", x + 22, y + 56, f["blurb"][0], 'style="font-size:11px"') + T("sb", x + 22, y + 71, f["blurb"][1], 'style="font-size:11px"')
+        inner += T("nt", x + 22, y + 92, f["stack"], 'style="font-size:10px"')
+        third = (str(e["decisions"]), "decision records") if e["decisions"] > 0 else (f"{e['docs']:,}", "markdown files")
+        cells = [(f"{e['commits']:,}", "commits"), (str(e["tests"]), "test files"), third, (str(e["workflows"]), "workflows")]
+        for k, (num, lab) in enumerate(cells):
+            cx_, cy_ = x + 22 + (k % 2) * 112, y + 124 + (k // 2) * 40
+            inner += T("big", cx_, cy_, num, 'style="font-size:22px"') + T("mn", cx_, cy_ + 14, lab)
+        row = ci.get(f["ci"])
+        if row:
+            inner += f'<circle cx="{x+27}" cy="{y+hh-16}" r="4.5" class="{"ok" if row["ok"] else "bad"}"/>'
+            inner += T("mn", x + 38, y + hh - 12, f"CI {'passing' if row['ok'] else 'failing'} · {row['asof']}")
+        b += t.pn(i, inner)
+    return t.wrap(h, b, "Flagship projects with counters taken from the public repositories: commits, test files, decision records, workflows, CI status")
+
+
 def stats(t: Theme, facts: dict, data: dict) -> str:
     h = 360
     b = t.bg(h)
@@ -243,7 +273,7 @@ def graph(t: Theme, facts: dict, data: dict) -> str:
     return t.wrap(h, b, "Project map: edge AI, platforms, verification and competitive programming clusters")
 
 
-RENDERERS = {"hero": hero, "worlds": worlds, "stats": stats, "graph": graph}
+RENDERERS = {"hero": hero, "worlds": worlds, "flagships": flagships, "stats": stats, "graph": graph}
 
 
 def render_all(facts: dict, data: dict) -> dict[str, str]:

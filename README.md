@@ -1,12 +1,16 @@
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"><img src="assets/hero-light.svg" alt="Saidakbar Narzullayev, software engineer: edge AI, platforms, and how far an agent's done can be trusted. ICPC NERC three times, Codeforces Candidate Master, LeetCode contest rating 2281." width="100%"></picture>
 
+[English](README.md) · [O‘zbekcha](README.uz.md) · [Русский](README.ru.md)
+
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/worlds-dark.svg"><img src="assets/worlds-light.svg" alt="Three areas of work. Research: a verifier that saw the reply caught 36 of 36 injected errors. Engineering: about 1,950 camera devices live in 7 days (measured 2026-11-06), C++17 firmware, CV25, ONNX. Competitive: Codeforces rating 2013, ICPC NERC three times." width="100%"></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/flagships-dark.svg"><img src="assets/flagships-light.svg" alt="Flagship projects (rankwant, hisobox, project-alpha) with commit, test-file, decision-record and workflow counts taken from the public repositories, and the CI status of each." width="100%"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg"><img src="assets/stats-light.svg" alt="Live public statistics, refreshed daily: public contributions in the last 12 months, Codeforces rating history, CI status of the public repositories on the default branch, and the latest public commits." width="100%"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/graph-dark.svg"><img src="assets/graph-light.svg" alt="Project map in four clusters: edge AI (CV25 firmware, model conversion, fleet analytics; private), platforms (rankwant, hisobox, tulporgo; public), verification (agent-verification-study, project-alpha; public, tg-solver; private) and competitive programming (cpstands, ICPC, Codeforces, LeetCode)." width="100%"></picture>
 
-Interactive version: [menarzullayev.github.io](https://menarzullayev.github.io), a 3D project graph you can drag, filters, the same live numbers, and a plain-text view for agents. English, Uzbek and Russian.
+Interactive version: [menarzullayev.github.io](https://menarzullayev.github.io), a 3D project graph you can drag, filters, the same live numbers, and a plain-text view for agents. English, Uzbek and Russian. The same projects as a public board: [System map](https://github.com/users/menarzullayev/projects/3).
 
 ## Engineering
 
@@ -50,4 +54,4 @@ Python · TypeScript · C++17 · SQL · Django · FastAPI · aiogram · React an
 
 Contact: [LinkedIn](https://linkedin.com/in/NarzullayevMe)
 
-<sub>The images above are drawn by [`scripts/build_profile.py`](scripts/build_profile.py) from public data (Codeforces and LeetCode APIs, the GitHub API) and rebuilt daily by [a workflow](.github/workflows/profile.yml). Private repositories are not counted. If a source is unreachable the last value is kept and marked with its date.</sub>
+<sub>The images above are drawn by [`scripts/build_profile.py`](scripts/build_profile.py) from public data (Codeforces and LeetCode APIs, the GitHub API) and rebuilt daily by [a workflow](.github/workflows/profile.yml). Private repositories are not counted. If a source is unreachable the last value is kept and marked with its date. What is counted and how: [DATA.md](DATA.md).</sub>

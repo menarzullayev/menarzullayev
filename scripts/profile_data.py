@@ -8,6 +8,7 @@ from __future__ import annotations
 import datetime as dt
 import json
 import os
+import re
 import urllib.parse
 import urllib.request
 
@@ -42,8 +43,10 @@ def parse_cf(info: dict, rating: dict, today: str) -> dict:
     hist = [int(r["newRating"]) for r in rating["result"]]
     if "rating" not in user or not hist:
         raise ValueError("codeforces user has no rating")
+    timeline = [[dt.datetime.fromtimestamp(int(r["ratingUpdateTimeSeconds"]), dt.timezone.utc).date().isoformat(), int(r["newRating"])]
+                for r in rating["result"] if "ratingUpdateTimeSeconds" in r]
     return {"rating": int(user["rating"]), "max": int(user["maxRating"]), "rank": str(user["rank"]),
-            "contests": len(hist), "history": hist[-12:], "asof": today, "stale": False}
+            "contests": len(hist), "history": hist[-12:], "timeline": timeline, "asof": today, "stale": False}
 
 
 def parse_lc(payload: dict, today: str) -> dict:
@@ -86,6 +89,43 @@ def pick_ci(runs: list[dict], workflow: str | None) -> dict | None:
     return {"ok": best["conclusion"] == "success", "asof": best["created_at"][:10]}
 
 
+
+# ---- evidence counters (counted from the public tree, never claimed) -----------------
+TEST_RE = re.compile(r"(^|/)(test_[^/]+\.py|[^/]+_test\.py|[^/]+\.(test|spec)\.(ts|tsx|js|jsx))$")
+DECISION_RE = re.compile(r"(^|/)(decisions|adr|adrs)/[^/]+\.md$", re.IGNORECASE)
+DECISION_SKIP = {"readme.md", "index.md", "template.md"}
+
+
+def count_tree(paths: list[str]) -> dict:
+    """Count files by name rule. Test files are counted by file name only (not test functions)."""
+    tests = decisions = workflows = docs = 0
+    for p in paths:
+        if "/node_modules/" in f"/{p}":
+            continue
+        if TEST_RE.search(p):
+            tests += 1
+        if DECISION_RE.search(p) and p.rsplit("/", 1)[-1].lower() not in DECISION_SKIP:
+            decisions += 1
+        if p.startswith(".github/workflows/") and p.endswith((".yml", ".yaml")):
+            workflows += 1
+        if p.lower().endswith(".md"):
+            docs += 1
+    return {"tests": tests, "decisions": decisions, "workflows": workflows, "docs": docs}
+
+
+def parse_tree(payload: dict) -> list[str]:
+    if payload.get("truncated"):
+        raise ValueError("git tree was truncated; the counts would be wrong")
+    return [n["path"] for n in payload["tree"] if n.get("type") == "blob"]
+
+
+def parse_commit_count(payload: dict) -> int:
+    repo = payload["data"]["repository"]
+    if repo is None or repo["defaultBranchRef"] is None:
+        raise ValueError("repository or default branch not found")
+    return int(repo["defaultBranchRef"]["target"]["history"]["totalCount"])
+
+
 # ---- fetchers ---------------------------------------------------------------------
 def fetch_cf(today: str) -> dict:
     q = urllib.parse.quote(CF_HANDLE)
@@ -122,6 +162,14 @@ def fetch_commits(repos: list[str], limit: int = 4) -> list[dict]:
     return items[:limit]
 
 
+def fetch_evidence(repo: str, today: str) -> dict:
+    tree = http_json(f"https://api.github.com/repos/{OWNER}/{repo}/git/trees/HEAD?recursive=1", headers=gh_headers(), timeout=40)
+    counts = count_tree(parse_tree(tree))
+    q = "query($o:String!,$n:String!){repository(owner:$o,name:$n){defaultBranchRef{target{... on Commit{history{totalCount}}}}}}"
+    commits = parse_commit_count(http_json("https://api.github.com/graphql", {"query": q, "variables": {"o": OWNER, "n": repo}}, gh_headers()))
+    return {"repo": repo, "commits": commits, **counts, "asof": today, "stale": False}
+
+
 # ---- stale-safe collection ----------------------------------------------------------
 def keep_or_fail(name: str, fetch, previous):
     """Return (value, error). On failure keep `previous` marked stale; no previous: re-raise."""
@@ -156,6 +204,8 @@ def collect(facts: dict, previous: dict, today: str | None = None) -> tuple[dict
         row = run(f"ci {target['label']}", lambda t=target: fetch_ci(t), prev_ci.get(target["label"]))
         ci.append(row)
     data["ci"] = ci
+    prev_ev = {row["repo"]: row for row in previous.get("evidence", [])}
+    data["evidence"] = [run(f"evidence {f['repo']}", lambda r=f["repo"]: fetch_evidence(r, today), prev_ev.get(f["repo"])) for f in facts.get("flagships", [])]
     data["commits"] = run("commits", lambda: fetch_commits(facts["commit_repos"]), previous.get("commits"))
     if isinstance(data["commits"], dict):  # defensive: stale marker only applies to dict values
         data["commits"] = previous.get("commits", [])

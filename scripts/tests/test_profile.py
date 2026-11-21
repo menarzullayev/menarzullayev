@@ -33,8 +33,8 @@ class Render(unittest.TestCase):
     def setUp(self):
         self.images = pr.render_all(FACTS, DATA)
 
-    def test_eight_valid_xml_files(self):
-        self.assertEqual(len(self.images), 8)
+    def test_every_module_in_both_themes_is_valid_xml(self):
+        self.assertEqual(len(self.images), 2 * len(pr.MODULES))
         for name, svg in self.images.items():
             root = ET.fromstring(svg)
             self.assertTrue(root.tag.endswith("svg"), name)
@@ -88,11 +88,12 @@ class Render(unittest.TestCase):
             self.assertNotIn("<script", svg.lower())
 
     def test_ci_failure_is_drawn_as_fail(self):
-        self.assertIn("FAIL", self.images["stats-dark.svg"])
         data = json.loads(json.dumps(DATA))
         for row in data["ci"]:
             row["ok"] = True
         self.assertNotIn("FAIL", pr.render_all(FACTS, data)["stats-dark.svg"])
+        data["ci"][0]["ok"] = False
+        self.assertIn("FAIL", pr.render_all(FACTS, data)["stats-dark.svg"])
 
 
 class Validate(unittest.TestCase):
@@ -115,9 +116,11 @@ class Validate(unittest.TestCase):
 class Parsers(unittest.TestCase):
     def test_cf_ok_and_failure(self):
         info = {"status": "OK", "result": [{"rating": 2013, "maxRating": 2013, "rank": "candidate master"}]}
-        rating = {"status": "OK", "result": [{"newRating": r} for r in range(1400, 1500, 10)]}
+        rating = {"status": "OK", "result": [{"newRating": r, "ratingUpdateTimeSeconds": 1605398400 + i * 86400} for i, r in enumerate(range(1400, 1500, 10))]}
         got = pd.parse_cf(info, rating, "2026-11-22")
         self.assertEqual((got["rating"], got["contests"], len(got["history"])), (2013, 10, 10))
+        self.assertEqual(got["timeline"][0], ["2020-11-15", 1400])
+        self.assertEqual(len(got["timeline"]), 10)
         with self.assertRaises(ValueError):
             pd.parse_cf({"status": "FAILED"}, rating, "2026-11-22")
         with self.assertRaises(ValueError):
@@ -142,6 +145,82 @@ class Parsers(unittest.TestCase):
         self.assertEqual(got["months"][0], ["J", 1])
         with self.assertRaises(ValueError):
             pd.parse_activity(cal([week("2026-01-01", 1)], 1), "2026-11-22")
+
+
+class Competitions(unittest.TestCase):
+    C = json.loads((ROOT / "data" / "competitions.json").read_text(encoding="utf-8"))
+
+    def test_every_entry_has_a_primary_source(self):
+        entries = self.C["icpc"]["entries"]
+        self.assertEqual([e["year"] for e in entries], sorted(e["year"] for e in entries))
+        for e in entries:
+            self.assertTrue(e["url"].startswith("https://nerc.itmo.ru/archive/"), e)
+            self.assertTrue(e["team"].strip())
+        for key in ("codeforces", "leetcode"):
+            self.assertTrue(self.C[key]["url"].startswith("https://"), key)
+
+    def test_no_placements_are_stated(self):
+        text = json.dumps(self.C).lower()
+        for word in ("place", "rank", "position", "winner"):
+            self.assertNotIn(word, text)
+
+    def test_timeline_matches_the_contest_count(self):
+        cf = DATA["cf"]
+        self.assertEqual(len(cf["timeline"]), cf["contests"])
+        dates = [d for d, _ in cf["timeline"]]
+        self.assertEqual(dates, sorted(dates))
+        self.assertEqual(cf["timeline"][-1][1], cf["rating"])
+
+
+class Evidence(unittest.TestCase):
+    PATHS = [
+        "apps/api/tests/test_orders.py", "apps/web/tests/cart.test.tsx", "tests/e2e/specs/login.spec.ts", "tools/check_negative_test.py",
+        "docs/decisions/2026-09-16-deploy.md", "docs/decisions/README.md", "docs/decisions/index.md", ".project-alpha/decisions/DEC-001.md",
+        ".github/workflows/ci.yml", ".github/workflows/notes.txt", "README.md", "docs/guide.md",
+        "web/node_modules/pkg/index.test.js", "src/contest.py", "docs/research/ADR-0016-note.md",
+    ]
+
+    def test_counts_follow_the_stated_rules(self):
+        got = pd.count_tree(self.PATHS)
+        self.assertEqual(got["tests"], 4)
+        self.assertEqual(got["decisions"], 2)
+        self.assertEqual(got["workflows"], 1)
+        self.assertEqual(got["docs"], 7)
+
+    def test_readme_and_index_in_decision_folders_do_not_count(self):
+        self.assertEqual(pd.count_tree(["docs/decisions/README.md", "docs/adr/index.md", "docs/adr/template.md"])["decisions"], 0)
+
+    def test_truncated_tree_is_rejected(self):
+        with self.assertRaises(ValueError):
+            pd.parse_tree({"truncated": True, "tree": []})
+        self.assertEqual(pd.parse_tree({"truncated": False, "tree": [{"type": "blob", "path": "a.py"}, {"type": "tree", "path": "d"}]}), ["a.py"])
+
+    def test_commit_count_parsing(self):
+        ok = {"data": {"repository": {"defaultBranchRef": {"target": {"history": {"totalCount": 1054}}}}}}
+        self.assertEqual(pd.parse_commit_count(ok), 1054)
+        for bad in ({"data": {"repository": None}}, {"data": {"repository": {"defaultBranchRef": None}}}):
+            with self.assertRaises(ValueError):
+                pd.parse_commit_count(bad)
+
+
+class Flagships(unittest.TestCase):
+    def test_cards_show_the_counted_numbers(self):
+        svg = pr.render_all(FACTS, DATA)["flagships-dark.svg"]
+        for e in DATA["evidence"]:
+            self.assertIn(f"{e['commits']:,}", svg)
+            self.assertIn(str(e["tests"]), svg)
+        self.assertIn("RANKWANT", svg)
+
+    def test_zero_decisions_falls_back_to_markdown_files(self):
+        alpha = next(e for e in DATA["evidence"] if e["repo"] == "project-alpha")
+        self.assertEqual(alpha["decisions"], 0)
+        self.assertIn("markdown files", pr.render_all(FACTS, DATA)["flagships-light.svg"])
+
+    def test_missing_evidence_fails_instead_of_drawing_zeros(self):
+        data = json.loads(json.dumps(DATA))
+        data["evidence"] = [e for e in data["evidence"] if e["repo"] != "hisobox"]
+        with self.assertRaises(ValueError):
+            pr.render_all(FACTS, data)
 
 
 class CiPick(unittest.TestCase):
