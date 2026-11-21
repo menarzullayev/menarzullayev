@@ -10,7 +10,7 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/graph-dark.svg"><img src="assets/graph-light.svg" alt="Project map in four clusters: edge AI (CV25 firmware, model conversion, fleet analytics; private), platforms (rankwant, hisobox, tulporgo; public), verification (agent-verification-study, project-alpha; public, tg-solver; private) and competitive programming (cpstands, ICPC, Codeforces, LeetCode)." width="100%"></picture>
 
-Interactive version: [menarzullayev.github.io](https://menarzullayev.github.io), a 3D project graph you can drag, filters, the same live numbers, and a plain-text view for agents. English, Uzbek and Russian.
+Interactive version: [menarzullayev.github.io](https://menarzullayev.github.io), a 3D project graph you can drag, filters, the same live numbers, and a plain-text view for agents. English, Uzbek and Russian. The same projects as a public board: [System map](https://github.com/users/menarzullayev/projects/3).
 
 ## Engineering
 

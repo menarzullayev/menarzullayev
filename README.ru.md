@@ -10,7 +10,7 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/graph-dark.svg"><img src="assets/graph-light.svg" alt="Карта проектов в четырёх кластерах: edge AI (прошивка CV25, конвертация моделей, аналитика парка; закрыто), платформы (rankwant, hisobox, tulporgo; открыто), верификация (agent-verification-study, project-alpha; открыто, tg-solver; закрыто) и соревновательное программирование (cpstands, ICPC, Codeforces, LeetCode)." width="100%"></picture>
 
-Интерактивная версия: [menarzullayev.github.io](https://menarzullayev.github.io) — 3D-граф проектов, который можно перетаскивать, фильтры, те же живые цифры и текстовый режим для агентов. На английском, узбекском и русском.
+Интерактивная версия: [menarzullayev.github.io](https://menarzullayev.github.io) — 3D-граф проектов, который можно перетаскивать, фильтры, те же живые цифры и текстовый режим для агентов. На английском, узбекском и русском. Те же проекты как открытая доска: [System map](https://github.com/users/menarzullayev/projects/3).
 
 ## Инженерия
 

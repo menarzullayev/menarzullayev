@@ -10,7 +10,7 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/graph-dark.svg"><img src="assets/graph-light.svg" alt="To‘rt klasterli loyihalar xaritasi: edge AI (CV25 firmware, modellarni o‘tkazish, kameralar parki tahlili; yopiq), platformalar (rankwant, hisobox, tulporgo; ochiq), tekshiruv (agent-verification-study, project-alpha; ochiq, tg-solver; yopiq) va musobaqa dasturlash (cpstands, ICPC, Codeforces, LeetCode)." width="100%"></picture>
 
-Interaktiv versiya: [menarzullayev.github.io](https://menarzullayev.github.io) — sudrab aylantiriladigan 3D loyihalar grafi, filtrlar, xuddi shu jonli raqamlar va agentlar uchun oddiy matn ko‘rinishi. Ingliz, o‘zbek va rus tillarida.
+Interaktiv versiya: [menarzullayev.github.io](https://menarzullayev.github.io) — sudrab aylantiriladigan 3D loyihalar grafi, filtrlar, xuddi shu jonli raqamlar va agentlar uchun oddiy matn ko‘rinishi. Ingliz, o‘zbek va rus tillarida. Xuddi shu loyihalar ochiq doska sifatida: [System map](https://github.com/users/menarzullayev/projects/3).
 
 ## Muhandislik
 
