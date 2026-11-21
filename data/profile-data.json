@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-21",
+  "generated": "2026-11-22",
   "cf": {
     "rating": 2013,
     "max": 2013,
@@ -19,18 +19,18 @@
       1926,
       2013
     ],
-    "asof": "2026-11-21",
+    "asof": "2026-11-22",
     "stale": false
   },
   "lc": {
     "rating": 2281,
     "top": "0.6%",
-    "asof": "2026-11-21",
+    "asof": "2026-11-22",
     "stale": false
   },
   "activity": {
-    "total": 8352,
-    "asof": "2026-11-21",
+    "total": 8367,
+    "asof": "2026-11-22",
     "stale": false,
     "months": [
       [
@@ -79,7 +79,7 @@
       ],
       [
         "N",
-        1969
+        1984
       ]
     ]
   },
@@ -117,24 +117,56 @@
     {
       "label": "rankwant · CI",
       "ok": true,
-      "asof": "2026-11-15"
+      "asof": "2026-11-21"
     },
     {
       "label": "rankwant · Nightly",
-      "ok": false,
+      "ok": true,
       "asof": "2026-11-21"
+    }
+  ],
+  "evidence": [
+    {
+      "repo": "rankwant",
+      "commits": 1054,
+      "tests": 228,
+      "decisions": 223,
+      "workflows": 9,
+      "docs": 830,
+      "asof": "2026-11-22",
+      "stale": false
+    },
+    {
+      "repo": "hisobox",
+      "commits": 179,
+      "tests": 351,
+      "decisions": 79,
+      "workflows": 1,
+      "docs": 278,
+      "asof": "2026-11-22",
+      "stale": false
+    },
+    {
+      "repo": "project-alpha",
+      "commits": 136,
+      "tests": 22,
+      "decisions": 0,
+      "workflows": 2,
+      "docs": 74,
+      "asof": "2026-11-22",
+      "stale": false
     }
   ],
   "commits": [
     {
+      "date": "2026-11-21",
+      "repo": "rankwant",
+      "msg": "chore(security): allowlist 3 reviewed gitleaks false positives in history (#623)"
+    },
+    {
       "date": "2026-11-20",
       "repo": "bot-platform",
       "msg": "test: commit Linux screenshot baseline (144 shots) and enforce it in CI"
-    },
-    {
-      "date": "2026-11-15",
-      "repo": "rankwant",
-      "msg": "feat(notifications): part 2 emitters (student left, quiz given, reports, plagiarism, new contest) (#621)"
     },
     {
       "date": "2026-11-15",
