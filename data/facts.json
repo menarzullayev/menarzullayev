@@ -1,0 +1,30 @@
+{
+  "name": "Saidakbar Narzullayev",
+  "eyebrow": "software engineer · edge ai · platforms",
+  "tagline": ["Edge-AI firmware, the platforms around it, and how far an", "agent's \u201cdone\u201d can be trusted."],
+  "chips": ["ICPC NERC \u00d73"],
+  "worlds": [
+    {"label": "RESEARCH", "big": "36/36", "sub": "injected errors caught", "note": ["agent-verification-study"]},
+    {"label": "ENGINEERING", "big": "~1.95K", "sub": "devices live, 7 days", "note": ["C++17 \u00b7 CV25 \u00b7 ONNX", "measured 2026-11-06"]},
+    {"label": "COMPETITIVE", "big": "{cf_rating}", "sub": "Codeforces {cf_rank}", "note": ["ICPC \u00d73 \u00b7 LC {lc_rating} \u00b7 top {lc_top}"]}
+  ],
+  "ci_targets": [
+    {"repo": "hisobox", "workflow": null, "label": "hisobox"},
+    {"repo": "project-alpha", "workflow": null, "label": "project-alpha"},
+    {"repo": "agent-verification-study", "workflow": null, "label": "agent-verification-study"},
+    {"repo": "tulporgo", "workflow": null, "label": "tulporgo"},
+    {"repo": "bot-platform", "workflow": null, "label": "bot-platform"},
+    {"repo": "cpstands", "workflow": null, "label": "cpstands"},
+    {"repo": "rankwant", "workflow": "CI", "label": "rankwant \u00b7 CI"},
+    {"repo": "rankwant", "workflow": "Nightly", "label": "rankwant \u00b7 Nightly"}
+  ],
+  "commit_repos": ["rankwant", "hisobox", "project-alpha", "agent-verification-study", "cpstands", "tulporgo", "bot-platform", "engineering-portfolio"],
+  "graph": {
+    "hubs": [
+      {"name": "EDGE AI", "x": 190, "y": 220, "leaves": [["CV25 firmware", -78, -44, false], ["model conversion", 78, -52, false], ["fleet analytics", -4, -78, false]]},
+      {"name": "PLATFORMS", "x": 640, "y": 220, "leaves": [["rankwant", -80, -50, true], ["hisobox", 82, -46, true], ["tulporgo", 6, -78, true], ["movie platform", 96, 22, false]]},
+      {"name": "VERIFY", "x": 190, "y": 370, "leaves": [["agent-verification-study", -92, 50, true], ["tg-solver", 84, 50, false], ["project-alpha", 0, 80, true]]},
+      {"name": "COMPETE", "x": 640, "y": 370, "leaves": [["cpstands", -78, 54, true], ["ICPC \u00b7 CF \u00b7 LC", 78, 48, true]]}
+    ]
+  }
+}
