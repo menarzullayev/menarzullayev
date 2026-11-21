@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-22",
+  "generated": "2026-11-21",
   "cf": {
     "rating": 2013,
     "max": 2013,
@@ -393,18 +393,18 @@
         2013
       ]
     ],
-    "asof": "2026-11-22",
+    "asof": "2026-11-21",
     "stale": false
   },
   "lc": {
     "rating": 2281,
     "top": "0.6%",
-    "asof": "2026-11-22",
+    "asof": "2026-11-21",
     "stale": false
   },
   "activity": {
-    "total": 8368,
-    "asof": "2026-11-22",
+    "total": 8352,
+    "asof": "2026-11-21",
     "stale": false,
     "months": [
       [
@@ -453,7 +453,7 @@
       ],
       [
         "N",
-        1985
+        1969
       ]
     ]
   },
@@ -507,7 +507,7 @@
       "decisions": 223,
       "workflows": 9,
       "docs": 830,
-      "asof": "2026-11-22",
+      "asof": "2026-11-21",
       "stale": false
     },
     {
@@ -517,7 +517,7 @@
       "decisions": 79,
       "workflows": 1,
       "docs": 278,
-      "asof": "2026-11-22",
+      "asof": "2026-11-21",
       "stale": false
     },
     {
@@ -527,7 +527,7 @@
       "decisions": 0,
       "workflows": 2,
       "docs": 74,
-      "asof": "2026-11-22",
+      "asof": "2026-11-21",
       "stale": false
     }
   ],
