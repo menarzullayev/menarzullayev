@@ -31,7 +31,7 @@ Ochiq ishlar (boshqacha aytilmasa, ishlab chiqilmoqda):
 | [cpstands](https://github.com/menarzullayev/cpstands) | Telegram uchun jonli musobaqa kuzatuvchisi: reyting, eslatma, bildirishnomalar (Codeforces, kep.uz). |
 | [bot-platform](https://github.com/menarzullayev/bot-platform) | Cloudflare Workers ustidagi ko‘p botli Telegram platformasi (TypeScript, grammY, D1). |
 
-Shu tizimlardan to‘rttasi qarorlar, o‘lchovlar va bajarilmagan ishlar sifatida
+Beshta tizim, shu jumladan yopiqlari, qarorlar, o‘lchovlar va bajarilmagan ishlar sifatida
 [engineering-portfolio](https://github.com/menarzullayev/engineering-portfolio) da tushuntirilgan.
 
 ## Tadqiqot

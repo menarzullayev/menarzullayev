@@ -31,7 +31,7 @@ Public work, in development unless stated:
 | [cpstands](https://github.com/menarzullayev/cpstands) | Live contest tracker for Telegram: standings, reminders, notifications (Codeforces, kep.uz). |
 | [bot-platform](https://github.com/menarzullayev/bot-platform) | Multi-bot Telegram platform on Cloudflare Workers (TypeScript, grammY, D1). |
 
-Four of these systems are explained as decisions, measurements and what is not done in
+Five systems, including the private ones, are explained as decisions, measurements and what is not done in
 [engineering-portfolio](https://github.com/menarzullayev/engineering-portfolio).
 
 ## Research

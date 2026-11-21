@@ -31,7 +31,7 @@
 | [cpstands](https://github.com/menarzullayev/cpstands) | Трекер соревнований для Telegram: таблицы, напоминания, уведомления (Codeforces, kep.uz). |
 | [bot-platform](https://github.com/menarzullayev/bot-platform) | Мульти-бот платформа Telegram на Cloudflare Workers (TypeScript, grammY, D1). |
 
-Четыре из этих систем описаны через решения, измерения и то, что не сделано, в
+Пять систем, включая закрытые, описаны через решения, измерения и то, что не сделано, в
 [engineering-portfolio](https://github.com/menarzullayev/engineering-portfolio).
 
 ## Исследование
