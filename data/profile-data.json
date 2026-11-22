@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-21",
+  "generated": "2026-11-22",
   "cf": {
     "rating": 2013,
     "max": 2013,
@@ -393,18 +393,18 @@
         2013
       ]
     ],
-    "asof": "2026-11-21",
+    "asof": "2026-11-22",
     "stale": false
   },
   "lc": {
     "rating": 2281,
     "top": "0.6%",
-    "asof": "2026-11-21",
+    "asof": "2026-11-22",
     "stale": false
   },
   "activity": {
-    "total": 2698,
-    "asof": "2026-11-21",
+    "total": 2720,
+    "asof": "2026-11-22",
     "stale": false,
     "months": [
       [
@@ -453,7 +453,7 @@
       ],
       [
         "N",
-        688
+        710
       ]
     ]
   },
@@ -496,18 +496,18 @@
     {
       "label": "rankwant · Nightly",
       "ok": true,
-      "asof": "2026-11-21"
+      "asof": "2026-11-22"
     }
   ],
   "evidence": [
     {
       "repo": "rankwant",
-      "commits": 1054,
+      "commits": 1055,
       "tests": 228,
       "decisions": 223,
       "workflows": 9,
       "docs": 830,
-      "asof": "2026-11-21",
+      "asof": "2026-11-22",
       "stale": false
     },
     {
@@ -517,7 +517,7 @@
       "decisions": 79,
       "workflows": 1,
       "docs": 278,
-      "asof": "2026-11-21",
+      "asof": "2026-11-22",
       "stale": false
     },
     {
@@ -527,15 +527,20 @@
       "decisions": 0,
       "workflows": 2,
       "docs": 74,
-      "asof": "2026-11-21",
+      "asof": "2026-11-22",
       "stale": false
     }
   ],
   "commits": [
     {
-      "date": "2026-11-21",
+      "date": "2026-11-22",
       "repo": "rankwant",
-      "msg": "chore(security): allowlist 3 reviewed gitleaks false positives in history (#623)"
+      "msg": "chore(deps): bump the npm-minor-patch group with 5 updates (#627)"
+    },
+    {
+      "date": "2026-11-21",
+      "repo": "engineering-portfolio",
+      "msg": "docs: add a fifth case study on edge-AI firmware and model conversion (#1)"
     },
     {
       "date": "2026-11-20",
@@ -546,11 +551,6 @@
       "date": "2026-11-15",
       "repo": "agent-verification-study",
       "msg": "ci: run the tests through the shared Python workflow (#1)"
-    },
-    {
-      "date": "2026-11-14",
-      "repo": "hisobox",
-      "msg": "chore(deploy): upgrade the base packages of the backend and proxy images; the docker-run guard works without git (#133)"
     }
   ]
 }
