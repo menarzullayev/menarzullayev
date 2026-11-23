@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-22",
+  "generated": "2026-11-23",
   "cf": {
     "rating": 2013,
     "max": 2013,
@@ -393,18 +393,18 @@
         2013
       ]
     ],
-    "asof": "2026-11-22",
+    "asof": "2026-11-23",
     "stale": false
   },
   "lc": {
     "rating": 2281,
     "top": "0.6%",
-    "asof": "2026-11-22",
+    "asof": "2026-11-23",
     "stale": false
   },
   "activity": {
-    "total": 2720,
-    "asof": "2026-11-22",
+    "total": 2814,
+    "asof": "2026-11-23",
     "stale": false,
     "months": [
       [
@@ -445,7 +445,7 @@
       ],
       [
         "S",
-        1158
+        1157
       ],
       [
         "O",
@@ -453,7 +453,7 @@
       ],
       [
         "N",
-        710
+        805
       ]
     ]
   },
@@ -461,7 +461,7 @@
     {
       "label": "hisobox",
       "ok": true,
-      "asof": "2026-11-14"
+      "asof": "2026-11-22"
     },
     {
       "label": "project-alpha",
@@ -496,7 +496,7 @@
     {
       "label": "rankwant · Nightly",
       "ok": true,
-      "asof": "2026-11-22"
+      "asof": "2026-11-23"
     }
   ],
   "evidence": [
@@ -507,17 +507,17 @@
       "decisions": 223,
       "workflows": 9,
       "docs": 830,
-      "asof": "2026-11-22",
+      "asof": "2026-11-23",
       "stale": false
     },
     {
       "repo": "hisobox",
-      "commits": 179,
+      "commits": 180,
       "tests": 351,
       "decisions": 79,
       "workflows": 1,
       "docs": 278,
-      "asof": "2026-11-22",
+      "asof": "2026-11-23",
       "stale": false
     },
     {
@@ -527,7 +527,7 @@
       "decisions": 0,
       "workflows": 2,
       "docs": 74,
-      "asof": "2026-11-22",
+      "asof": "2026-11-23",
       "stale": false
     }
   ],
@@ -538,6 +538,11 @@
       "msg": "chore(deps): bump the npm-minor-patch group with 5 updates (#627)"
     },
     {
+      "date": "2026-11-22",
+      "repo": "hisobox",
+      "msg": "fix(backup): empty scheduler marks crash-looped the backup container (#134)"
+    },
+    {
       "date": "2026-11-21",
       "repo": "engineering-portfolio",
       "msg": "docs: add a fifth case study on edge-AI firmware and model conversion (#1)"
@@ -546,11 +551,6 @@
       "date": "2026-11-20",
       "repo": "bot-platform",
       "msg": "test: commit Linux screenshot baseline (144 shots) and enforce it in CI"
-    },
-    {
-      "date": "2026-11-15",
-      "repo": "agent-verification-study",
-      "msg": "ci: run the tests through the shared Python workflow (#1)"
     }
   ]
 }
