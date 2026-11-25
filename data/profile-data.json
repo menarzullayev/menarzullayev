@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-24",
+  "generated": "2026-11-25",
   "cf": {
     "rating": 2013,
     "max": 2013,
@@ -393,18 +393,18 @@
         2013
       ]
     ],
-    "asof": "2026-11-24",
+    "asof": "2026-11-25",
     "stale": false
   },
   "lc": {
     "rating": 2281,
     "top": "0.6%",
-    "asof": "2026-11-24",
+    "asof": "2026-11-25",
     "stale": false
   },
   "activity": {
-    "total": 2994,
-    "asof": "2026-11-24",
+    "total": 3088,
+    "asof": "2026-11-25",
     "stale": false,
     "months": [
       [
@@ -453,7 +453,7 @@
       ],
       [
         "N",
-        985
+        1079
       ]
     ]
   },
@@ -491,23 +491,23 @@
     {
       "label": "rankwant · CI",
       "ok": true,
-      "asof": "2026-11-21"
+      "asof": "2026-11-25"
     },
     {
       "label": "rankwant · Nightly",
       "ok": true,
-      "asof": "2026-11-24"
+      "asof": "2026-11-25"
     }
   ],
   "evidence": [
     {
       "repo": "rankwant",
-      "commits": 1055,
+      "commits": 1058,
       "tests": 228,
       "decisions": 223,
       "workflows": 9,
       "docs": 830,
-      "asof": "2026-11-24",
+      "asof": "2026-11-25",
       "stale": false
     },
     {
@@ -517,7 +517,7 @@
       "decisions": 79,
       "workflows": 1,
       "docs": 278,
-      "asof": "2026-11-24",
+      "asof": "2026-11-25",
       "stale": false
     },
     {
@@ -527,15 +527,15 @@
       "decisions": 0,
       "workflows": 2,
       "docs": 74,
-      "asof": "2026-11-24",
+      "asof": "2026-11-25",
       "stale": false
     }
   ],
   "commits": [
     {
-      "date": "2026-11-22",
+      "date": "2026-11-25",
       "repo": "rankwant",
-      "msg": "chore(deps): bump the npm-minor-patch group with 5 updates (#627)"
+      "msg": "chore(deps): update boto3 requirement from >=1.44.2 to >=1.44.6 in /apps/api (#626)"
     },
     {
       "date": "2026-11-22",
