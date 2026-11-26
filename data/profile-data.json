@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-25",
+  "generated": "2026-11-26",
   "cf": {
     "rating": 2013,
     "max": 2013,
@@ -393,18 +393,18 @@
         2013
       ]
     ],
-    "asof": "2026-11-25",
+    "asof": "2026-11-26",
     "stale": false
   },
   "lc": {
     "rating": 2281,
     "top": "0.6%",
-    "asof": "2026-11-25",
+    "asof": "2026-11-26",
     "stale": false
   },
   "activity": {
-    "total": 3088,
-    "asof": "2026-11-25",
+    "total": 3209,
+    "asof": "2026-11-26",
     "stale": false,
     "months": [
       [
@@ -453,7 +453,7 @@
       ],
       [
         "N",
-        1079
+        1200
       ]
     ]
   },
@@ -461,7 +461,7 @@
     {
       "label": "hisobox",
       "ok": true,
-      "asof": "2026-11-22"
+      "asof": "2026-11-25"
     },
     {
       "label": "project-alpha",
@@ -491,33 +491,33 @@
     {
       "label": "rankwant · CI",
       "ok": true,
-      "asof": "2026-11-25"
+      "asof": "2026-11-26"
     },
     {
       "label": "rankwant · Nightly",
       "ok": true,
-      "asof": "2026-11-25"
+      "asof": "2026-11-26"
     }
   ],
   "evidence": [
     {
       "repo": "rankwant",
-      "commits": 1058,
+      "commits": 1063,
       "tests": 228,
-      "decisions": 223,
+      "decisions": 227,
       "workflows": 9,
-      "docs": 830,
-      "asof": "2026-11-25",
+      "docs": 834,
+      "asof": "2026-11-26",
       "stale": false
     },
     {
       "repo": "hisobox",
-      "commits": 180,
+      "commits": 181,
       "tests": 351,
       "decisions": 79,
       "workflows": 1,
       "docs": 278,
-      "asof": "2026-11-25",
+      "asof": "2026-11-26",
       "stale": false
     },
     {
@@ -527,20 +527,20 @@
       "decisions": 0,
       "workflows": 2,
       "docs": 74,
-      "asof": "2026-11-25",
+      "asof": "2026-11-26",
       "stale": false
     }
   ],
   "commits": [
     {
-      "date": "2026-11-25",
+      "date": "2026-11-26",
       "repo": "rankwant",
-      "msg": "chore(deps): update boto3 requirement from >=1.44.2 to >=1.44.6 in /apps/api (#626)"
+      "msg": "fix(ci): run no pull-request code in the Dependabot lock job (#632)"
     },
     {
-      "date": "2026-11-22",
+      "date": "2026-11-25",
       "repo": "hisobox",
-      "msg": "fix(backup): empty scheduler marks crash-looped the backup container (#134)"
+      "msg": "perf(landing): WebP illustrations and the sharing card's real size (#135)"
     },
     {
       "date": "2026-11-21",
