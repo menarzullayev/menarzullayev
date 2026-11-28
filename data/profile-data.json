@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-27",
+  "generated": "2026-11-28",
   "cf": {
     "rating": 2013,
     "max": 2013,
@@ -393,18 +393,18 @@
         2013
       ]
     ],
-    "asof": "2026-11-27",
+    "asof": "2026-11-28",
     "stale": false
   },
   "lc": {
     "rating": 2281,
     "top": "0.6%",
-    "asof": "2026-11-27",
+    "asof": "2026-11-28",
     "stale": false
   },
   "activity": {
-    "total": 3259,
-    "asof": "2026-11-27",
+    "total": 3364,
+    "asof": "2026-11-28",
     "stale": false,
     "months": [
       [
@@ -445,15 +445,15 @@
       ],
       [
         "S",
-        1157
+        1159
       ],
       [
         "O",
-        659
+        700
       ],
       [
         "N",
-        1250
+        1312
       ]
     ]
   },
@@ -496,7 +496,7 @@
     {
       "label": "rankwant · Nightly",
       "ok": true,
-      "asof": "2026-11-27"
+      "asof": "2026-11-28"
     }
   ],
   "evidence": [
@@ -507,7 +507,7 @@
       "decisions": 227,
       "workflows": 9,
       "docs": 834,
-      "asof": "2026-11-27",
+      "asof": "2026-11-28",
       "stale": false
     },
     {
@@ -517,7 +517,7 @@
       "decisions": 79,
       "workflows": 1,
       "docs": 278,
-      "asof": "2026-11-27",
+      "asof": "2026-11-28",
       "stale": false
     },
     {
@@ -527,7 +527,7 @@
       "decisions": 0,
       "workflows": 2,
       "docs": 74,
-      "asof": "2026-11-27",
+      "asof": "2026-11-28",
       "stale": false
     }
   ],
